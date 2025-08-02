@@ -16,3 +16,5 @@ Other motivation for me to develop something like that is just to learn more abo
 > Advises about risks or negative outcomes of certain actions.
 
 [The files that are being used to test the parser](https://gitlab.com/news-flash/news_flash_gtk/-/blob/master/po) are from a [Gnome Circle](https://circle.gnome.org/) application called [Newsflash](https://apps.gnome.org/en/NewsFlash/). 
+
+I never used PO files before, this is my first contact and I know that building a parser for something you do not understand is not a brilliant idea, but I want to try it anyways

@@ -1,5 +1,5 @@
 import { readFile } from 'node:fs/promises';
-import { parsePoContent } from './parse-po.js';
+import { parsePoContent } from './parser.js';
 
 async function parsePoFile(path: string) {
 	const content = await readFile(path, 'utf8');

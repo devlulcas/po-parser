@@ -1,0 +1,2751 @@
+# Spanish translations for newsflash package.
+# Copyright (C) 2022 THE newsflash'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the newsflash package.
+# Óscar Fernández Díaz <oscfdezdz@tuta.io>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: newsflash\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-10 12:18+0300\n"
+"PO-Revision-Date: 2025-01-10 14:08+0000\n"
+"Last-Translator: Angel Aguilera <angel.aguilera@protonmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/newsflash/"
+"news_flash_gtk/es/>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:7
+#: data/io.gitlab.news_flash.NewsFlash.desktop.in.in:3
+#: data/resources/ui_templates/main_window.blp:6
+#: data/resources/ui_templates/main_window.blp:14
+#: data/resources/ui_templates/main_window.blp:42
+msgid "NewsFlash"
+msgstr "NewsFlash"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:8
+msgid "Keep up with your feeds"
+msgstr "Manténgase al día con sus canales"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:12
+msgid ""
+"NewsFlash is a program designed to complement an already existing web-based "
+"RSS reader account."
+msgstr ""
+"NewsFlash es un programa diseñado para complementar una cuenta de lector RSS "
+"ya existente en la web."
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:16
+msgid ""
+"It combines all the advantages of web based services like syncing across all "
+"your devices with everything you expect from a modern desktop program: "
+"Desktop notifications, fast search and filtering, tagging, handy keyboard "
+"shortcuts and having access to all your articles for as long as you like."
+msgstr ""
+"Combina todas las ventajas de los servicios basados en Internet, como la "
+"sincronización en todos tus dispositivos, con todo lo que esperas de un "
+"programa de escritorio moderno: Notificaciones de escritorio, búsqueda y "
+"filtrado rápidos, etiquetado, prácticos atajos de teclado y acceso a todos "
+"tus artículos durante todo el tiempo que quieras."
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:55
+msgid "Fix small UI paper cuts"
+msgstr "Corrección de errores menores en la interfaz de usuario"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:56
+msgid "Local RSS: don't discard failing feeds"
+msgstr "RSS local: no descartes los feeds con errores"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:57
+msgid "Fix autostart"
+msgstr "Reparar el inicio automático"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:540
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:521
+msgid "Jan Lukas Gernert"
+msgstr "Jan Lukas Gernert"
+
+#: data/io.gitlab.news_flash.NewsFlash.desktop.in.in:4
+msgid "RSS Reader"
+msgstr "Lector RSS"
+
+#: data/io.gitlab.news_flash.NewsFlash.desktop.in.in:5
+msgid ""
+"Faster than flash to deliver you the latest news from your subscribed feeds"
+msgstr ""
+"Más rápido que el rayo para ofrecerle las últimas noticias de sus canales "
+"suscritos"
+
+#: data/io.gitlab.news_flash.NewsFlash.desktop.in.in:11
+msgid "Gnome;GTK;RSS;Feed;"
+msgstr "Gnome;GTK;RSS;Canal;"
+
+#: data/resources/ui_templates/add_dialog/category.blp:39
+msgid "Add a Category"
+msgstr "Añadir una categoría"
+
+#: data/resources/ui_templates/add_dialog/category.blp:48
+msgid "Enter the Title of the new Category"
+msgstr "Introduzca el título de la categoría nueva"
+
+#: data/resources/ui_templates/add_dialog/category.blp:57
+msgid "Category Title"
+msgstr "Título de la categoría"
+
+#: data/resources/ui_templates/add_dialog/category.blp:63
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:71
+#: data/resources/ui_templates/add_dialog/tag.blp:62
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:65
+msgid "Add"
+msgstr "Añadir"
+
+#: data/resources/ui_templates/add_dialog/error.blp:31
+msgid "Try again"
+msgstr "Intentar nuevamente"
+
+#: data/resources/ui_templates/add_dialog/feed.blp:14
+msgid "Parse URL"
+msgstr "Analizar URL"
+
+#: data/resources/ui_templates/add_dialog/feed.blp:20
+#: data/resources/ui_templates/discover/dialog.blp:314
+msgid "Select Feed"
+msgstr "Seleccionar canal"
+
+#: data/resources/ui_templates/add_dialog/feed.blp:26
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:33
+#: data/resources/ui_templates/discover/dialog.blp:320
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:27
+msgid "Add Feed"
+msgstr "Añadir canal"
+
+#: data/resources/ui_templates/add_dialog/feed.blp:32
+msgid "Error"
+msgstr "Error"
+
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:42
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:36
+msgid "Edit the title of the feed and set its category"
+msgstr "Editar el título del canal y establecer su categoría"
+
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:62
+#: data/resources/ui_templates/sidebar/feedlist_dnd_icon.blp:29
+#: data/resources/ui_templates/sidebar/feedlist_item.blp:29
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:56
+msgid "Feed Title"
+msgstr "Título del canal"
+
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:65
+#: data/resources/ui_templates/edit_dialogs/feed.blp:50
+#: src/content_page/sidebar_column.rs:147
+#: data/resources/ui_templates/add_dialog/feed_widget.blp:59
+msgid "Category"
+msgstr "Categoría"
+
+#: data/resources/ui_templates/add_dialog/parse_feed.blp:35
+msgid "Add a Feed"
+msgstr "Añadir un canal"
+
+#: data/resources/ui_templates/add_dialog/parse_feed.blp:44
+msgid "Enter the URL of a feed or website"
+msgstr "Introduzca la URL de un canal o sitio web"
+
+#: data/resources/ui_templates/add_dialog/parse_feed.blp:53
+msgid "Website or Feed URL"
+msgstr "Sitio web o URL del canal"
+
+#: data/resources/ui_templates/add_dialog/parse_feed.blp:60
+msgid "Parse"
+msgstr "Analizar"
+
+#: data/resources/ui_templates/add_dialog/select_feed.blp:28
+msgid "Multiple Feeds found"
+msgstr "Se han encontrado varios canales"
+
+#: data/resources/ui_templates/add_dialog/select_feed.blp:37
+msgid "Select one of the listed feeds below"
+msgstr "Seleccione uno de los canales listados a continuación"
+
+#: data/resources/ui_templates/add_dialog/select_feed.blp:61
+msgid "Select"
+msgstr "Seleccionar"
+
+#: data/resources/ui_templates/add_dialog/tag.blp:37
+msgid "Add a Tag"
+msgstr "Añadir una etiqueta"
+
+#: data/resources/ui_templates/add_dialog/tag.blp:46
+msgid "Enter the Title of the new Tag"
+msgstr "Introduzca el título de la nueva categoría"
+
+#: data/resources/ui_templates/add_dialog/tag.blp:56
+#: data/resources/ui_templates/sidebar/tag_row.blp:25
+#: data/resources/ui_templates/tagging/row.blp:26
+msgid "Tag Title"
+msgstr "Título de la etiqueta"
+
+#: data/resources/ui_templates/article_list/column.blp:27
+msgid "Refresh Content"
+msgstr "Actualizar contenido"
+
+#: data/resources/ui_templates/article_list/column.blp:44
+msgid "Search Articles"
+msgstr "Buscar artículos"
+
+#: data/resources/ui_templates/article_list/column.blp:57
+msgid "Set All/Feed/Category as Read"
+msgstr "Establecer Todo/Canal/Categoría como Leído"
+
+#: data/resources/ui_templates/article_list/column.blp:94
+msgid "All"
+msgstr "Todos"
+
+#: data/resources/ui_templates/article_list/column.blp:101
+msgid "Unread"
+msgstr "No leído"
+
+#: data/resources/ui_templates/article_list/column.blp:108
+msgid "Starred"
+msgstr "Destacado"
+
+#: data/resources/ui_templates/article_list/list.blp:19
+msgid "Select an article to read it."
+msgstr "Seleccione un artículo para leerlo."
+
+#: data/resources/ui_templates/article_list/row.blp:38
+msgid "feed"
+msgstr "canal"
+
+#: data/resources/ui_templates/article_list/row.blp:53
+msgid "/"
+msgstr "/"
+
+#: data/resources/ui_templates/article_list/row.blp:67
+msgid "date"
+msgstr "fecha"
+
+#: data/resources/ui_templates/article_list/row.blp:95
+#: data/resources/ui_templates/article_list/row.blp:96
+msgid "title"
+msgstr "título"
+
+#: data/resources/ui_templates/article_list/row.blp:110
+msgid "No Summary"
+msgstr "No hay resumen"
+
+#: data/resources/ui_templates/article_view/column.blp:21
+#: data/resources/ui_templates/settings/shortcuts.blp:63
+msgid "Toggle Starred"
+msgstr "Alternar Favorito"
+
+#: data/resources/ui_templates/article_view/column.blp:29
+msgid "unmarked"
+msgstr "no marcado"
+
+#: data/resources/ui_templates/article_view/column.blp:37
+msgid "marked"
+msgstr "marcado"
+
+#: data/resources/ui_templates/article_view/column.blp:52
+#: data/resources/ui_templates/settings/shortcuts.blp:46
+#: src/article_list/article_row.rs:388 src/article_list/article_row.rs:373
+msgid "Toggle Read"
+msgstr "Alternar Leído"
+
+#: data/resources/ui_templates/article_view/column.blp:60
+msgid "read"
+msgstr "leído"
+
+#: data/resources/ui_templates/article_view/column.blp:68
+msgid "unread"
+msgstr "no leído"
+
+#: data/resources/ui_templates/article_view/column.blp:82
+msgid "Article Menu"
+msgstr "Menú del artículo"
+
+#: data/resources/ui_templates/article_view/column.blp:120
+#: data/resources/ui_templates/article_view/column.blp:185
+msgid "Try to Show Full Content"
+msgstr "Intentar mostrar el contenido completo"
+
+#: data/resources/ui_templates/article_view/column.blp:140
+#: data/resources/ui_templates/article_view/column.blp:204
+msgid "Tag Article"
+msgstr "Etiquetar artículo"
+
+#: data/resources/ui_templates/article_view/column.blp:152
+#: data/resources/ui_templates/article_view/column.blp:216
+msgid "Share To"
+msgstr "Compartir a"
+
+#: data/resources/ui_templates/article_view/url.blp:14
+#: data/resources/ui_templates/settings/share.blp:119
+msgid "URL"
+msgstr "URL"
+
+#: data/resources/ui_templates/article_view/view.blp:35
+msgid "crash"
+msgstr "fallo"
+
+#: data/resources/ui_templates/article_view/view.blp:47
+msgid "WebKit has crashed"
+msgstr "WebKit ha fallado"
+
+#: data/resources/ui_templates/article_view/view.blp:65
+msgid "empty"
+msgstr "vacío"
+
+#: data/resources/ui_templates/article_view/view.blp:68
+msgid "Select an article"
+msgstr "Seleccione un artículo"
+
+#: data/resources/ui_templates/article_view/view.blp:78
+msgid "article"
+msgstr "artículo"
+
+#: data/resources/ui_templates/discover/dialog.blp:15
+#: data/resources/ui_templates/discover/dialog.blp:25
+#: data/resources/ui_templates/discover/dialog.blp:19
+msgid "Discover"
+msgstr "Descubrir"
+
+#: data/resources/ui_templates/discover/dialog.blp:26
+#: data/resources/ui_templates/discover/dialog.blp:20
+msgid "Search the feedly.com library"
+msgstr "Buscar en la biblioteca feedly.com"
+
+#: data/resources/ui_templates/discover/dialog.blp:62
+#: data/resources/ui_templates/discover/dialog.blp:56
+msgid "Search by #topic, Website or RSS Link"
+msgstr "Buscar por #tema, sitio web o enlace RSS"
+
+#: data/resources/ui_templates/discover/dialog.blp:83
+#: data/resources/ui_templates/discover/dialog.blp:77
+msgid "page0"
+msgstr "page0"
+
+#: data/resources/ui_templates/discover/dialog.blp:91
+#: data/resources/ui_templates/discover/dialog.blp:85
+msgid "Featured Topics"
+msgstr "Temas destacados"
+
+#: data/resources/ui_templates/discover/dialog.blp:112
+#: data/resources/ui_templates/discover/dialog.blp:106
+msgid "#News"
+msgstr "#Noticias"
+
+#: data/resources/ui_templates/discover/dialog.blp:124
+#: data/resources/ui_templates/discover/dialog.blp:118
+msgid "#Tech"
+msgstr "#Tecnología"
+
+#: data/resources/ui_templates/discover/dialog.blp:134
+#: data/resources/ui_templates/discover/dialog.blp:128
+msgid "#Science"
+msgstr "#Ciencia"
+
+#: data/resources/ui_templates/discover/dialog.blp:144
+#: data/resources/ui_templates/discover/dialog.blp:138
+msgid "#Culture"
+msgstr "#Cultura"
+
+#: data/resources/ui_templates/discover/dialog.blp:156
+#: data/resources/ui_templates/discover/dialog.blp:150
+msgid "#Media"
+msgstr "#Multimedia"
+
+#: data/resources/ui_templates/discover/dialog.blp:168
+#: data/resources/ui_templates/discover/dialog.blp:162
+msgid "#Sports"
+msgstr "#Deportes"
+
+#: data/resources/ui_templates/discover/dialog.blp:180
+#: data/resources/ui_templates/discover/dialog.blp:174
+msgid "#Food"
+msgstr "#Comida"
+
+#: data/resources/ui_templates/discover/dialog.blp:192
+#: data/resources/ui_templates/discover/dialog.blp:186
+msgid "#Open source"
+msgstr "#Código abierto"
+
+#: data/resources/ui_templates/discover/dialog.blp:205
+#: data/resources/ui_templates/discover/dialog.blp:199
+msgid "page1"
+msgstr "page1"
+
+#: data/resources/ui_templates/discover/dialog.blp:215
+#: data/resources/ui_templates/discover/dialog.blp:209
+msgid "Search Results"
+msgstr "Resultados de búsqueda"
+
+#: data/resources/ui_templates/discover/dialog.blp:279
+#: data/resources/ui_templates/discover/dialog.blp:273
+msgid "No Results"
+msgstr "No hay resultados"
+
+#: data/resources/ui_templates/discover/search_item.blp:31
+msgid "Title"
+msgstr "Título"
+
+#: data/resources/ui_templates/discover/search_item.blp:42
+msgid "Description"
+msgstr "Descripción"
+
+#: data/resources/ui_templates/edit_dialogs/category.blp:18
+msgid "Edit Category"
+msgstr "Editar categoría"
+
+#: data/resources/ui_templates/edit_dialogs/category.blp:38
+msgid "Category Name"
+msgstr "Nombre de la categoría"
+
+#: data/resources/ui_templates/edit_dialogs/feed.blp:19
+msgid "Edit Feed"
+msgstr "Añadir canal"
+
+#: data/resources/ui_templates/edit_dialogs/feed.blp:39
+msgid "Feed Name"
+msgstr "Nombre del canal"
+
+#: data/resources/ui_templates/edit_dialogs/feed.blp:44
+msgid "Feed URL"
+msgstr "URL del Canal"
+
+#: data/resources/ui_templates/edit_dialogs/feed.blp:55
+msgid "Content"
+msgstr "Contenido"
+
+#: data/resources/ui_templates/edit_dialogs/feed.blp:59
+msgid "Inline Math delimiter"
+msgstr "Delimitador matemático en línea"
+
+#: data/resources/ui_templates/edit_dialogs/tag.blp:15
+msgid "Edit Tag"
+msgstr "Editar etiqueta"
+
+#: data/resources/ui_templates/edit_dialogs/tag.blp:34
+msgid "Tag Name"
+msgstr "Nombre de etiqueta"
+
+#: data/resources/ui_templates/edit_dialogs/tag.blp:39
+msgid "Color"
+msgstr "Color"
+
+#: data/resources/ui_templates/enclosures/button.blp:12
+#: src/enclosure_button.rs:90 src/enclosure_button.rs:95
+msgid "Open Attachment"
+msgstr "Abrir archivo adjunto"
+
+#: data/resources/ui_templates/enclosures/button.blp:23
+msgid "Show Attachments"
+msgstr "Mostrar archivos adjuntos"
+
+#: data/resources/ui_templates/error_detail_dialog.blp:16
+msgid "Error Details"
+msgstr "Detalles del error"
+
+#: data/resources/ui_templates/error_detail_dialog.blp:36
+msgid "Copy to Clipboard"
+msgstr "Copiar al portapapeles"
+
+#: data/resources/ui_templates/login/custom_api_secret.blp:25
+msgid "Custom API Secret"
+msgstr "API secreta personalizada"
+
+#: data/resources/ui_templates/login/custom_api_secret.blp:50
+msgid "Client ID"
+msgstr "ID de cliente"
+
+#: data/resources/ui_templates/login/custom_api_secret.blp:54
+msgid "Client Secret"
+msgstr "Secreto del cliente"
+
+#: data/resources/ui_templates/login/custom_api_secret.blp:68
+msgid "Use Your Own Secret"
+msgstr "Utilice su propio secreto"
+
+#: data/resources/ui_templates/login/custom_api_secret.blp:81
+msgid "Use NewsFlash Secret"
+msgstr "Utilice secreto de NewsFlash"
+
+#: data/resources/ui_templates/login/password.blp:32
+#: data/resources/ui_templates/login/password.blp:31
+msgid "Headline"
+msgstr "Titular"
+
+#: data/resources/ui_templates/login/password.blp:51
+#: data/resources/ui_templates/login/password.blp:50
+msgid "Server URL"
+msgstr "URL del servidor"
+
+#: data/resources/ui_templates/login/password.blp:55
+#: data/resources/ui_templates/login/password.blp:54
+msgid "Login with"
+msgstr "Iniciar sesión con"
+
+#: data/resources/ui_templates/login/password.blp:57
+#: data/resources/ui_templates/login/password.blp:56
+msgid "Username / Password"
+msgstr "Usuario / Contraseña"
+
+#: data/resources/ui_templates/login/password.blp:57
+#: data/resources/ui_templates/login/password.blp:70
+#: data/resources/ui_templates/login/password.blp:56
+#: data/resources/ui_templates/login/password.blp:69
+msgid "Token"
+msgstr "Token"
+
+#: data/resources/ui_templates/login/password.blp:62
+#: data/resources/ui_templates/login/password.blp:85
+#: data/resources/ui_templates/login/password.blp:61
+#: data/resources/ui_templates/login/password.blp:84
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: data/resources/ui_templates/login/password.blp:66
+#: data/resources/ui_templates/login/password.blp:89
+#: data/resources/ui_templates/login/password.blp:65
+#: data/resources/ui_templates/login/password.blp:88
+msgid "Password"
+msgstr "Contraseña"
+
+#: data/resources/ui_templates/login/password.blp:82
+#: data/resources/ui_templates/login/password.blp:81
+msgid "HTTP Basic Auth"
+msgstr "Autenticación básica HTTP"
+
+#: data/resources/ui_templates/login/password.blp:108
+#: data/resources/ui_templates/main_window.blp:21
+#: data/resources/ui_templates/main_window.blp:28
+#: data/resources/ui_templates/main_window.blp:35
+#: data/resources/ui_templates/login/password.blp:107
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+#: data/resources/ui_templates/login/service_row.blp:5
+msgid "Service Name"
+msgstr "Nombre del servicio"
+
+#: data/resources/ui_templates/login/welcome.blp:16
+#: data/resources/ui_templates/login/welcome.blp:15
+msgid "Add RSS Service"
+msgstr "Agregar servicio RSS"
+
+#: data/resources/ui_templates/login/welcome.blp:27
+#: data/resources/ui_templates/login/welcome.blp:25
+msgid "This Device"
+msgstr "Este dispositivo"
+
+#: data/resources/ui_templates/login/welcome.blp:39
+#: data/resources/ui_templates/login/welcome.blp:37
+msgid "Sync Account"
+msgstr "Sincronizar cuenta"
+
+#: data/resources/ui_templates/main_window.blp:50
+msgid "Reset"
+msgstr "Restablecer"
+
+#: data/resources/ui_templates/reset_page.blp:15
+msgid "Logout?"
+msgstr "¿Cerrar sesión?"
+
+#: data/resources/ui_templates/reset_page.blp:16
+msgid "Logging out leads to all local data being lost"
+msgstr "Cerrar sesión provoca la pérdida de todos los datos locales"
+
+#: data/resources/ui_templates/reset_page.blp:31 src/account_popover.rs:22
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: data/resources/ui_templates/settings/app.blp:6
+msgid "App"
+msgstr "Aplicación"
+
+#: data/resources/ui_templates/settings/app.blp:9
+msgid "Application"
+msgstr "Aplicación"
+
+#: data/resources/ui_templates/settings/app.blp:12
+msgid "Keep running"
+msgstr "Continuar ejecutando"
+
+#: data/resources/ui_templates/settings/app.blp:13
+msgid "Fetch updates in the background"
+msgstr "Obtener actualizaciones en segundo plano"
+
+#: data/resources/ui_templates/settings/app.blp:24
+msgid "Autostart"
+msgstr "Autoencendido"
+
+#: data/resources/ui_templates/settings/app.blp:25
+msgid "Start App on login"
+msgstr "Iniciar la aplicación al iniciar sesión"
+
+#: data/resources/ui_templates/settings/app.blp:36
+msgid "Sync on startup"
+msgstr "Sincronizar al inicio"
+
+#: data/resources/ui_templates/settings/app.blp:37
+msgid "Fetch updates when the App is launched"
+msgstr "Obtener actualizaciones cuando se lanza la aplicación"
+
+#: data/resources/ui_templates/settings/app.blp:48
+msgid "Sync on metered connection"
+msgstr "Sincronización en conexión medida"
+
+#: data/resources/ui_templates/settings/app.blp:49
+msgid "Fetch updates on mobile connections in the background"
+msgstr "Obtener actualizaciones de conexiones móviles en segundo plano"
+
+#: data/resources/ui_templates/settings/app.blp:61
+msgid "Update Interval"
+msgstr "Intervalo de actualización"
+
+#: data/resources/ui_templates/settings/app.blp:64 src/settings/feed_list.rs:32
+msgid "Manual"
+msgstr "Manual"
+
+#: data/resources/ui_templates/settings/app.blp:65
+msgid "No automatic synchronization"
+msgstr "No hay sincronización automática"
+
+#: data/resources/ui_templates/settings/app.blp:75
+msgid "Synchronize every"
+msgstr "Sincronizar cada"
+
+#: data/resources/ui_templates/settings/app.blp:86
+msgid "Custom Interval"
+msgstr "Intervalo personalizado"
+
+#: data/resources/ui_templates/settings/app.blp:96
+msgid "hh:mm:ss"
+msgstr "hh:mm:ss"
+
+#: data/resources/ui_templates/settings/app.blp:107
+#: data/resources/ui_templates/settings/app.blp:106
+msgid "Data"
+msgstr "Datos"
+
+#: data/resources/ui_templates/settings/app.blp:110
+#: data/resources/ui_templates/settings/app.blp:109
+msgid "User Data"
+msgstr "Datos del usuario"
+
+#: data/resources/ui_templates/settings/app.blp:127
+#: data/resources/ui_templates/settings/app.blp:126
+msgid "Keep Articles"
+msgstr "Mantener artículos"
+
+#: data/resources/ui_templates/settings/app.blp:128
+#: data/resources/ui_templates/settings/app.blp:127
+msgid "Refers to the time of sync"
+msgstr "Se refiere al tiempo de sincronización"
+
+#: data/resources/ui_templates/settings/app.blp:133
+#: data/resources/ui_templates/settings/app.blp:132
+msgid "Cache"
+msgstr "Caché"
+
+#: data/resources/ui_templates/settings/app.blp:150
+#: data/resources/ui_templates/settings/app.blp:149
+msgid "Webview"
+msgstr "Webview"
+
+#: data/resources/ui_templates/settings/app.blp:158
+#: data/resources/ui_templates/settings/app.blp:157
+msgid "Clear"
+msgstr "Limpiar"
+
+#: data/resources/ui_templates/settings/keybind_editor.blp:34
+msgid "Enter new keybinding to change"
+msgstr "Introduzca el nuevo atajo del teclado para cambiar"
+
+#: data/resources/ui_templates/settings/keybind_editor.blp:44
+msgid "STUFF"
+msgstr "COSAS"
+
+#: data/resources/ui_templates/settings/keybind_editor.blp:56
+msgid "Press ESC to cancel or Backspace to disable the keybinding."
+msgstr ""
+"Pulse ESC para cancelar o Retroceso para desactivar el atajo del teclado."
+
+#: data/resources/ui_templates/settings/keybind_editor.blp:64
+msgid "SHORTCUT"
+msgstr "ATAJO"
+
+#: data/resources/ui_templates/settings/keybind_editor.blp:75
+msgid "Set"
+msgstr "Establecer"
+
+#: data/resources/ui_templates/settings/share.blp:6
+msgid "Sharing"
+msgstr "Compartir"
+
+#: data/resources/ui_templates/settings/share.blp:9
+msgid "Services"
+msgstr "Servicios"
+
+#: data/resources/ui_templates/settings/share.blp:12
+msgid "Pocket"
+msgstr "Pocket"
+
+#: data/resources/ui_templates/settings/share.blp:26
+msgid "Instapaper"
+msgstr "Instapaper"
+
+#: data/resources/ui_templates/settings/share.blp:40
+msgid "Twitter"
+msgstr "Twitter"
+
+#: data/resources/ui_templates/settings/share.blp:54
+msgid "Mastodon"
+msgstr "Mastodon"
+
+#: data/resources/ui_templates/settings/share.blp:68
+msgid "Reddit"
+msgstr "Reddit"
+
+#: data/resources/ui_templates/settings/share.blp:82
+msgid "Telegram"
+msgstr "Telegram"
+
+#: data/resources/ui_templates/settings/share.blp:97
+msgid "Custom"
+msgstr "Personalizado"
+
+#: data/resources/ui_templates/settings/share.blp:98
+msgid ""
+"Add your own share link. ${url} and ${title} will be replaced with the url "
+"and title \trespectively."
+msgstr ""
+"Añade tu propio enlace para compartir. ${url} y ${title} se reemplazarán con "
+"la URL y el título \t respectivamente."
+
+#: data/resources/ui_templates/settings/share.blp:101
+msgid "Enabled"
+msgstr "Activado"
+
+#: data/resources/ui_templates/settings/share.blp:114
+msgid "Name"
+msgstr "Nombre"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:6
+msgid "Keybindings"
+msgstr "Atajos de teclado"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:9
+#: data/resources/ui_templates/settings/views.blp:32
+msgid "Article List"
+msgstr "Lista de artículos"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:12
+msgid "Next Article"
+msgstr "Siguiente Artículo"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:29
+msgid "Previous Article"
+msgstr "Artículo Anterior"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:80
+msgid "Open URL"
+msgstr "Abrir URL"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:97
+msgid "Copy URL"
+msgstr "Copiar URL"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:115
+#: data/resources/ui_templates/settings/views.blp:9
+msgid "Feed List"
+msgstr "Lista de canales"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:118
+msgid "Next Item"
+msgstr "Siguiente Elemento"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:135
+msgid "Previous Item"
+msgstr "Elemento Anterior"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:152
+msgid "Expand / Collapse"
+msgstr "Expandir / Contraer"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:169
+msgid "Mark selected read"
+msgstr "Marcar lectura seleccionada"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:187
+msgid "General"
+msgstr "General"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:190
+msgid "Shortcuts"
+msgstr "Atajos"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:207
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:224
+msgid "Search"
+msgstr "Buscar"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:241
+#: src/content_page/sidebar_column.rs:128
+msgid "Quit"
+msgstr "Salir"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:258
+#: data/resources/ui_templates/sidebar/sidebar.blp:31
+msgid "All Articles"
+msgstr "Todos los artículos"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:275
+msgid "Only Unread"
+msgstr "Sólo no leídos"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:292
+msgid "Only Starred"
+msgstr "Sólo destacados"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:310
+#: data/resources/ui_templates/settings/views.blp:70
+msgid "Article View"
+msgstr "Vista de artículo"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:313
+msgid "Scroll up"
+msgstr "Desplazar hacia arriba"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:330
+msgid "Scroll down"
+msgstr "Desplazar hacia abajo"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:347
+msgid "Scrape article content"
+msgstr "Extraer el contenido de los artículos"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:364
+msgid "Tag article"
+msgstr "Etiquetar artículo"
+
+#: data/resources/ui_templates/settings/shortcuts.blp:381
+msgid "Fullscreen article"
+msgstr "Artículo en pantalla completa"
+
+#: data/resources/ui_templates/settings/theme_chooser.blp:28
+#: data/resources/ui_templates/settings/views.blp:90
+msgid "Default"
+msgstr "Predeterminado"
+
+#: data/resources/ui_templates/settings/theme_chooser.blp:42
+msgid "Spring"
+msgstr "Primavera"
+
+#: data/resources/ui_templates/settings/theme_chooser.blp:56
+msgid "Midnight"
+msgstr "Medianoche"
+
+#: data/resources/ui_templates/settings/theme_chooser.blp:70
+msgid "Parchment"
+msgstr "Pergamino"
+
+#: data/resources/ui_templates/settings/theme_chooser.blp:84
+msgid "Gruvbox"
+msgstr "Gruvbox"
+
+#: data/resources/ui_templates/settings/views.blp:6
+msgid "Views"
+msgstr "Vistas"
+
+#: data/resources/ui_templates/settings/views.blp:12
+#: data/resources/ui_templates/settings/views.blp:35
+msgid "Order"
+msgstr "Ordenar"
+
+#: data/resources/ui_templates/settings/views.blp:16
+msgid "Only show relevant items"
+msgstr "Mostrar sólo los elementos relevantes"
+
+#: data/resources/ui_templates/settings/views.blp:17
+msgid "Hide feeds and categories without unread/unstarred items"
+msgstr ""
+"Ocultar las fuentes y las categorías sin elementos no leídos/no destacados"
+
+#: data/resources/ui_templates/settings/views.blp:39
+msgid "Show Thumbnails"
+msgstr "Mostrar miniaturas"
+
+#: data/resources/ui_templates/settings/views.blp:40
+msgid "Only if available"
+msgstr "Sólo si está disponible"
+
+#: data/resources/ui_templates/settings/views.blp:54
+msgid "Hide Future Articles"
+msgstr "Ocultar artículos futuros"
+
+#: data/resources/ui_templates/settings/views.blp:55
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:235
+msgid "Hide Articles dated in the Future"
+msgstr "Ocultar artículos fechados en el futuro"
+
+#: data/resources/ui_templates/settings/views.blp:73
+msgid "Theme"
+msgstr "Tema"
+
+#: data/resources/ui_templates/settings/views.blp:100
+msgid "Allow selection"
+msgstr "Permitir selección"
+
+#: data/resources/ui_templates/settings/views.blp:113
+msgid "Content Width"
+msgstr "Ancho del contenido"
+
+#: data/resources/ui_templates/settings/views.blp:114
+msgid "Width of the Article in Characters"
+msgstr "Ancho del artículo en caracteres"
+
+#: data/resources/ui_templates/settings/views.blp:127
+msgid "Line Height"
+msgstr "Altura de la línea"
+
+#: data/resources/ui_templates/settings/views.blp:128
+msgid "Line Height in Characters"
+msgstr "Altura de línea en caracteres"
+
+#: data/resources/ui_templates/settings/views.blp:142
+msgid "Use System Font"
+msgstr "Usar la tipografía del sistema"
+
+#: data/resources/ui_templates/settings/views.blp:155
+msgid "Font"
+msgstr "Tipografía"
+
+#: data/resources/ui_templates/sidebar/account_widget.blp:19
+msgid "label"
+msgstr "etiqueta"
+
+#: data/resources/ui_templates/sidebar/column.blp:13
+#: data/resources/ui_templates/sidebar/column.blp:12
+msgid "Account"
+msgstr "Cuenta"
+
+#: data/resources/ui_templates/sidebar/column.blp:23
+#: data/resources/ui_templates/sidebar/column.blp:22
+msgid "Main Menu"
+msgstr "Menú Principal"
+
+#: data/resources/ui_templates/sidebar/column.blp:29
+#: data/resources/ui_templates/sidebar/column.blp:28
+msgid "Add Feed/Category/Tag"
+msgstr "Añadir canal/categoría/etiqueta"
+
+#: data/resources/ui_templates/sidebar/sidebar.blp:74
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: data/resources/ui_templates/sidebar/sidebar.blp:115
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: data/resources/ui_templates/tagging/popover.blp:30
+msgid "Add Tags"
+msgstr "Agregar etiquetas"
+
+#: data/resources/ui_templates/tagging/popover.blp:38
+msgid "Type to create a new Tag"
+msgstr "Escriba para crear una nueva etiqueta"
+
+#: data/resources/ui_templates/tagging/popover.blp:59
+msgid "Create Tag"
+msgstr "Crear etiqueta"
+
+#: data/resources/ui_templates/tagging/popover.blp:96
+msgid "Tag the Article"
+msgstr "Etiquetar el artículo"
+
+#: data/resources/ui_templates/tagging/popover.blp:110
+msgid "Press enter to assign a Tag or ctrl + enter to create a new Tag"
+msgstr ""
+"Presione enter para asignar una etiqueta o ctrl + enter para crear una nueva"
+
+#: data/resources/ui_templates/tagging/popover.blp:147
+msgid "Search and Create Tags"
+msgstr "Buscar y crear etiquetas"
+
+#: src/account_popover.rs:35
+msgid "Edit Account"
+msgstr "Editar Cuenta"
+
+#: src/app.rs:451 src/app.rs:436
+msgid "Edit category: no parameter"
+msgstr "Editar categoría: sin parámetro"
+
+#: src/app.rs:472 src/app.rs:457
+msgid "Delete category: no parameter"
+msgstr "Eliminar categoría: sin parámetro"
+
+#: src/app.rs:518 src/app.rs:503
+msgid "Edit feed: no parameter"
+msgstr "Editar canal: sin parámetro"
+
+#: src/app.rs:538 src/app.rs:523
+msgid "Delete feed: no parameter"
+msgstr "Eliminar canal: sin parámetro"
+
+#: src/app.rs:589 src/app.rs:574
+msgid "Delete Tag: no parameter"
+msgstr "Eliminar etiqueta: sin parámetro"
+
+#: src/app.rs:731 src/app.rs:676
+msgid "save webview image: no parameter"
+msgstr "guardar imagen de vista web: sin parámetro"
+
+#: src/app.rs:820 src/app.rs:765
+msgid "open uri: no parameter"
+msgstr "open uri: sin parámetro"
+
+#: src/app.rs:992 src/app.rs:1035 src/app.rs:930 src/app.rs:973
+msgid "Failed to sync"
+msgstr "No se pudo sincronizar"
+
+#: src/app.rs:1049 src/app.rs:987
+msgid "New Articles"
+msgstr "Artículos nuevos"
+
+#: src/app.rs:1052 src/app.rs:990
+msgid "There is 1 new article ({} unread)"
+msgstr "Hay 1 artículo nuevo ({} sin leer)"
+
+#: src/app.rs:1055 src/app.rs:993
+msgid "There are {} new articles ({} unread)"
+msgstr "Hay {} artículos nuevos ({} no leídos)"
+
+#: src/app.rs:1236 src/app.rs:1174
+msgid "Failed to mark article read: '{}'"
+msgstr "No se pudo marcar el artículo como leído: '{}'"
+
+#: src/app.rs:1282 src/app.rs:1220
+msgid "Failed to star article: '{}'"
+msgstr "No se pudo iniciar el artículo: '{}'"
+
+#: src/app.rs:1436 src/app.rs:1464 src/app.rs:1492 src/app.rs:1520
+msgid "Failed to mark all read"
+msgstr "No se pudo marcar el artículo como leído"
+
+#: src/app.rs:1553 src/app.rs:1380
+msgid "Failed to add feed"
+msgstr "No se pudo agregar el canal"
+
+#: src/app.rs:1573 src/app.rs:1400
+msgid "Failed to add category"
+msgstr "No se pudo agregar la categoría"
+
+#: src/app.rs:1602 src/app.rs:1429
+msgid "Failed to add tag"
+msgstr "No se pudo agregar la etiqueta"
+
+#: src/app.rs:1641 src/app.rs:1468
+msgid "Failed to rename feed"
+msgstr "No se pudo renombrar el canal"
+
+#: src/app.rs:1665 src/app.rs:1492
+msgid "Failed to rename category"
+msgstr "No se pudo renombrar categoría"
+
+#: src/app.rs:1690 src/app.rs:1870 src/app.rs:1517 src/app.rs:1697
+msgid "Failed to tag article"
+msgstr "No se pudo etiquetar el artículo"
+
+#: src/app.rs:1713 src/app.rs:1540
+msgid "Failed to set feed list order to manual"
+msgstr "No se pudo establecer el orden de la lista de canales a manual"
+
+#: src/app.rs:1743 src/app.rs:1570
+msgid "Failed to move feed"
+msgstr "No se pudo mover el canal"
+
+#: src/app.rs:1771 src/app.rs:1598
+msgid "Failed to move category"
+msgstr "No se pudo mover la categoría"
+
+#: src/app.rs:1789 src/app.rs:1616
+msgid "Failed to delete feed"
+msgstr "No se pudo eliminar el canal"
+
+#: src/app.rs:1809 src/app.rs:1636
+msgid "Failed to delete category"
+msgstr "No se pudo eliminar la categoría"
+
+#: src/app.rs:1829 src/app.rs:1656
+msgid "Failed to delete tag"
+msgstr "No se pudo eliminar la etiqueta"
+
+#: src/app.rs:1908 src/app.rs:1735
+msgid "Failed to untag article"
+msgstr "No se pudo eliminar la etiqueta del artículo"
+
+#: src/app.rs:1981 src/app.rs:2255 src/app.rs:2357 src/app.rs:1808
+#: src/app.rs:2082 src/app.rs:2184
+msgid "_Save"
+msgstr "_Guardar"
+
+#: src/app.rs:1982 src/content_page/article_view_column.rs:222 src/app.rs:1809
+msgid "Export Article"
+msgstr "Exportar artículo"
+
+#: src/app.rs:2007 src/app.rs:1834
+msgid "No file set: {}"
+msgstr "Ningún archivo establecido: {}"
+
+#: src/app.rs:2033 src/app.rs:1860
+msgid "Failed to download images"
+msgstr "No se pudo descargar las imágenes"
+
+#: src/app.rs:2138 src/app.rs:1965
+msgid "Scraper failed to extract content"
+msgstr "Scraper no pudo extraer el contenido"
+
+#: src/app.rs:2142 src/app.rs:1969
+msgid "Scraper Timeout"
+msgstr "Tiempo de espera del Scraper"
+
+#. .transient_for(&App::default().main_window())
+#: src/app.rs:2164 src/app.rs:1991
+msgid "_Open"
+msgstr "_Abrir"
+
+#: src/app.rs:2165 src/content_page/sidebar_column.rs:131 src/app.rs:1992
+msgid "Import OPML"
+msgstr "Importar OPML"
+
+#: src/app.rs:2193 src/app.rs:2020
+msgid "Failed read OPML string: {}"
+msgstr "Error al leer la cadena OPML: {}"
+
+#: src/app.rs:2229 src/app.rs:2056
+msgid "Failed to import OPML"
+msgstr "No se pudo importar OPML"
+
+#: src/app.rs:2256 src/content_page/sidebar_column.rs:132 src/app.rs:2083
+msgid "Export OPML"
+msgstr "Exportar OPML"
+
+#: src/app.rs:2276 src/app.rs:2103
+msgid "No file set."
+msgstr "No hay ningún archivo establecido."
+
+#: src/app.rs:2299 src/app.rs:2126
+msgid "Failed to get OPML data"
+msgstr "No se pudo obtener datos OPML"
+
+#: src/app.rs:2310 src/app.rs:2137
+msgid "Failed to write OPML data to disc"
+msgstr "No se pudo escribir datos OPML en el disco"
+
+#: src/app.rs:2317 src/app.rs:2144
+msgid "Failed to parse OPML data for formatting"
+msgstr "No se pudo analizar los datos OPML para formatear"
+
+#: src/app.rs:2358 src/app.rs:2185
+msgid "Save Image"
+msgstr "Guardar imagen"
+
+#: src/app.rs:2378 src/app.rs:2205
+msgid "No file set"
+msgstr "Ningún archivo establecido"
+
+#: src/app.rs:2401 src/app.rs:2228
+msgid "Failed to download image {}"
+msgstr "No se pudo descargar la imagen {}"
+
+#: src/app.rs:2511 src/app.rs:2334
+msgid "NewsFlash is offline"
+msgstr "NewsFlash está desconectado"
+
+#: src/app.rs:2513 src/app.rs:2336
+msgid "NewsFlash is online"
+msgstr "NewsFlash está en línea"
+
+#: src/app.rs:2528 src/app.rs:2351
+msgid "Failed to set offline"
+msgstr "No se pudo configurar sin conexión"
+
+#: src/app.rs:2530 src/app.rs:2353
+msgid "Failed to apply changes made while offline"
+msgstr "No se pudieron aplicar los cambios realizados sin conexión"
+
+#: src/app.rs:2556 src/app.rs:2379
+msgid "Error writing settings"
+msgstr "Error al escribir la configuración"
+
+#: src/app.rs:2624 src/app.rs:2447
+msgid "Failed read URL: {}"
+msgstr "Error de lectura de URL: {}"
+
+#: src/edit_feed_dialog.rs:93 src/add_dialog/add_feed_widget.rs:142
+msgid "None"
+msgstr "Ninguna"
+
+#: src/enclosure_button.rs:84
+msgid "Open Attached Image"
+msgstr "Abrir imagen adjunta"
+
+#: src/enclosure_button.rs:86
+msgid "Open Attached Video"
+msgstr "Abrir vídeo adjunto"
+
+#: src/enclosure_button.rs:88
+msgid "Open Attached Audio"
+msgstr "Abrir audio adjunto"
+
+#: src/enclosure_button.rs:93
+msgid "Watch Youtube Video"
+msgstr "Ver vídeos de Youtube"
+
+#: src/image_dialog.rs:125 src/image_dialog.rs:162
+msgid "Failed to decode image '{}'"
+msgstr "No se pudo decodificar la imagen '{}'"
+
+#: src/image_dialog.rs:138
+msgid "Failed to downlaod image"
+msgstr "No se pudo descargar la imagen"
+
+#: src/image_dialog.rs:173
+msgid "Could not decode image"
+msgstr "No se pudo decodificar la imagen"
+
+#: src/reset_page.rs:92
+msgid "Failed to reset account"
+msgstr "No se pudo restablecer la cuenta"
+
+#: src/reset_page.rs:94 src/content_page/mod.rs:145
+#: src/login_screen/password_login.rs:317
+#: src/login_screen/password_login.rs:328
+#: src/login_screen/password_login.rs:339 src/login_screen/web_login.rs:124
+#: src/content_page/mod.rs:143
+msgid "details"
+msgstr "detalles"
+
+#: src/add_dialog/add_feed_widget.rs:116
+msgid "Failed to add feed: No valid url"
+msgstr "No se pudo agregar canal: no hay una URL válida"
+
+#: src/add_dialog/parse_feed_widget.rs:117
+msgid "Not a valid URL"
+msgstr "No es una URL válida"
+
+#: src/add_dialog/parse_feed_widget.rs:152
+msgid "No Feed found"
+msgstr "No se ha encontrado ningún canal"
+
+#: src/add_dialog/select_feed_widget.rs:105
+msgid "Can't parse Feed"
+msgstr "No se puede analizar el canal"
+
+#: src/article_list/article_row.rs:389 src/article_list/article_row.rs:374
+msgid "Toggle Star"
+msgstr "Alternar Favorito"
+
+#: src/article_list/article_row.rs:390
+#: src/content_page/article_view_column.rs:224
+#: src/article_list/article_row.rs:375
+msgid "Open in Browser"
+msgstr "Abrir en el navegador"
+
+#: src/article_list/mod.rs:679 src/article_list/mod.rs:663
+msgid "No articles that fit \"{}\""
+msgstr "No hay artículos que se ajusten a \"{}\""
+
+#: src/article_list/mod.rs:680 src/article_list/mod.rs:664
+msgid "No articles"
+msgstr "No hay artículos"
+
+#: src/article_list/mod.rs:683 src/article_list/mod.rs:667
+msgid "No unread articles that fit \"{}\""
+msgstr "No hay artículos no leídos que se ajusten a \"{}\""
+
+#: src/article_list/mod.rs:684 src/article_list/mod.rs:668
+msgid "No unread articles"
+msgstr "No hay artículos no leídos"
+
+#: src/article_list/mod.rs:687 src/article_list/mod.rs:671
+msgid "No starred articles that fit \"{}\""
+msgstr "No hay artículos destacados que se ajusten a \"{}\""
+
+#: src/article_list/mod.rs:688 src/article_list/mod.rs:672
+msgid "No starred articles"
+msgstr "No hay artículos destacados"
+
+#: src/article_list/mod.rs:699 src/article_list/mod.rs:683
+msgid "No articles that fit \"{}\" in {} \"{}\""
+msgstr "No hay artículos que encajen \"{}\" en {} \"{}\""
+
+#: src/article_list/mod.rs:702 src/article_list/mod.rs:686
+msgid "No articles in {} \"{}\""
+msgstr "No hay artículos en {} \"{}\""
+
+#: src/article_list/mod.rs:706 src/article_list/mod.rs:690
+msgid "No unread articles that fit \"{}\" in {} \"{}\""
+msgstr "No hay artículos no leídos que se ajusten a \"{}\" en {} \"{}\""
+
+#: src/article_list/mod.rs:709 src/article_list/mod.rs:693
+msgid "No unread articles in {} \"{}\""
+msgstr "No hay artículos no leídos en {} \"{}\""
+
+#: src/article_list/mod.rs:713 src/article_list/mod.rs:697
+msgid "No starred articles that fit \"{}\" in {} \"{}\""
+msgstr "No hay artículos destacados que se ajusten a \"{}\" en {} \"{}\""
+
+#: src/article_list/mod.rs:716 src/article_list/mod.rs:700
+msgid "No starred articles in {} \"{}\""
+msgstr "No hay artículos destacados en {} \"{}\""
+
+#: src/article_list/mod.rs:722 src/article_list/mod.rs:706
+msgid "No articles that fit \"{}\" in tag \"{}\""
+msgstr "No hay artículos que se ajusten a \"{}\" en la etiqueta \"{}\""
+
+#: src/article_list/mod.rs:723 src/article_list/mod.rs:707
+msgid "No articles in tag \"{}\""
+msgstr "No hay artículos en la etiqueta \"{}\""
+
+#: src/article_list/mod.rs:727 src/article_list/mod.rs:711
+msgid "No unread articles that fit \"{}\" in tag \"{}\""
+msgstr ""
+"No hay artículos no leídos que se ajusten a \"{}\" en la etiqueta \"{}\""
+
+#: src/article_list/mod.rs:730 src/article_list/mod.rs:714
+msgid "No unread articles in tag \"{}\""
+msgstr "No hay artículos no leídos en la etiqueta \"{}\""
+
+#: src/article_list/mod.rs:734 src/article_list/mod.rs:718
+msgid "No starred articles that fit \"{}\" in tag \"{}\""
+msgstr ""
+"No hay artículos destacados que se ajusten a \"{}\" en la etiqueta \"{}\""
+
+#: src/article_list/mod.rs:737 src/article_list/mod.rs:721
+msgid "No starred articles in tag \"{}\""
+msgstr "No hay artículos destacados en la etiqueta \"{}\""
+
+#: src/content_page/article_view_column.rs:227
+msgid "Toggle Fullscreen"
+msgstr "Alternar pantalla completa"
+
+#: src/content_page/article_view_column.rs:228
+msgid "Close Article"
+msgstr "Cerrar artículo"
+
+#: src/content_page/mod.rs:192 src/content_page/mod.rs:188
+msgid "Deleted Category '{}'"
+msgstr "Categoría borrada '{}'"
+
+#: src/content_page/mod.rs:193 src/content_page/mod.rs:189
+msgid "Deleted Feed '{}'"
+msgstr "Canal borrado '{}'"
+
+#: src/content_page/mod.rs:194 src/content_page/mod.rs:190
+msgid "Deleted Tag '{}'"
+msgstr "Etiqueta borrada '{}'"
+
+#: src/content_page/mod.rs:198 src/content_page/mod.rs:194
+msgid "undo"
+msgstr "deshacer"
+
+#: src/content_page/mod.rs:323 src/content_page/mod.rs:317
+msgid "Failed to set service logo"
+msgstr "No se pudo configurar el logotipo del servicio"
+
+#: src/content_page/mod.rs:750 src/content_page/mod.rs:743
+msgid "Sidebar: missing category with id: '{}'"
+msgstr "Barra lateral: falta categoría con ID: '{}'"
+
+#: src/content_page/mod.rs:786 src/content_page/mod.rs:779
+msgid "Sidebar: missing feed with id: '{}'"
+msgstr "Barra lateral: falta canal con ID: '{}'"
+
+#: src/content_page/mod.rs:850 src/content_page/mod.rs:843
+msgid "Failed to update sidebar: '{}'"
+msgstr "No se pudo actualizar la barra lateral: '{}'"
+
+#: src/content_page/sidebar_column.rs:125
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: src/content_page/sidebar_column.rs:126
+msgid "Keyboard Shortcuts"
+msgstr "Atajos de teclado"
+
+#: src/content_page/sidebar_column.rs:127
+msgid "About NewsFlash"
+msgstr "Acerca de NewsFlash"
+
+#: src/content_page/sidebar_column.rs:135
+msgid "Discover Feeds"
+msgstr "Descubrir canales"
+
+#: src/content_page/sidebar_column.rs:146
+msgid "Feed"
+msgstr "Canal"
+
+#: src/content_page/sidebar_column.rs:148
+msgid "Tag"
+msgstr "Etiqueta"
+
+#. set headline
+#: src/login_screen/password_login.rs:156
+msgid "Log into {}"
+msgstr "Iniciar sesión en {}"
+
+#: src/login_screen/password_login.rs:285
+msgid "Unauthorized"
+msgstr "No autorizado"
+
+#: src/login_screen/password_login.rs:295
+msgid "No valid CA certificate available"
+msgstr "No hay ningún certificado CA válido disponible"
+
+#: src/login_screen/password_login.rs:299
+msgid "ignore future TLS errors"
+msgstr "ignorar futuros errores de TLS"
+
+#: src/login_screen/password_login.rs:313
+msgid "Network Error"
+msgstr "Error de red"
+
+#: src/login_screen/password_login.rs:324
+msgid "Could not log in"
+msgstr "No se ha podido iniciar sesión"
+
+#: src/login_screen/password_login.rs:335 src/login_screen/web_login.rs:113
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#: src/login_screen/web_login.rs:111
+msgid "API Limit Reached"
+msgstr "Límite de API alcanzado"
+
+#: src/login_screen/web_login.rs:112
+msgid "Failed to log in"
+msgstr "Fallo al iniciar sesión"
+
+#: src/settings/dialog/app_page.rs:201 src/settings/dialog/app_page.rs:211
+msgid "Failed to set setting 'keep running'"
+msgstr "No se pudo establecer \"seguir funcionando\""
+
+#: src/settings/dialog/app_page.rs:223
+msgid "Failed to set setting 'sync on startup'"
+msgstr "No se pudo establecer 'sincronizar al iniciar'"
+
+#: src/settings/dialog/app_page.rs:235
+msgid "Failed to set setting 'sync on metered'"
+msgstr "No se pudo establecer 'sincronización medida'"
+
+#: src/settings/dialog/app_page.rs:299
+msgid "Failed to set setting 'limit articles duration'"
+msgstr "No se pudo establecer 'limitar la duración de los artículos'"
+
+#: src/settings/dialog/app_page.rs:425
+msgid "Failed to set setting 'sync interval'"
+msgstr "No se pudo establecer 'intervalo de sincronización'"
+
+#: src/settings/dialog/keybinding_editor.rs:108
+msgid "Disable Keybinding"
+msgstr "Desactivar atajo del teclado"
+
+#: src/settings/dialog/keybinding_editor.rs:125
+msgid "Illegal Keybinding"
+msgstr "Atajo del teclado no permitido"
+
+#: src/settings/dialog/share_page.rs:111
+msgid "Failed to set setting 'pocket enabled'"
+msgstr "No se pudo establecer 'pocket habilitado'"
+
+#: src/settings/dialog/share_page.rs:129
+msgid "Failed to set setting 'instapaper enabled'"
+msgstr "No se pudo establecer 'instapaper habilitado'"
+
+#: src/settings/dialog/share_page.rs:147
+msgid "Failed to set setting 'twitter enabled'"
+msgstr "No se pudo establecer 'twitter habilitado'"
+
+#: src/settings/dialog/share_page.rs:165
+msgid "Failed to set setting 'mastodon enabled'"
+msgstr "No se pudo establecer 'mastodon habilitado'"
+
+#: src/settings/dialog/share_page.rs:183
+msgid "Failed to set setting 'reddit enabled'"
+msgstr "No se pudo establecer 'reddit habilitado'"
+
+#: src/settings/dialog/share_page.rs:201
+msgid "Failed to set setting 'telegram enabled'"
+msgstr "No se pudo establecer 'telegram habilitado'"
+
+#: src/settings/dialog/share_page.rs:225
+msgid "Failed to set setting 'custom share enabled'"
+msgstr "No se pudo establecer 'compartir personalizado habilitado'"
+
+#: src/settings/dialog/share_page.rs:243
+msgid "Failed to set setting 'custom share name'"
+msgstr "No se pudo establecer 'nombre compartido personalizado'"
+
+#: src/settings/dialog/share_page.rs:260
+msgid "Failed to set setting 'custom share url'"
+msgstr "No se pudo establecer 'URL para compartir personalizada'"
+
+#: src/settings/dialog/shortcuts_page.rs:367
+#: src/settings/dialog/shortcuts_page.rs:375
+msgid "Failed to write keybinding"
+msgstr "No se pudo escribir la combinación de teclas"
+
+#: src/settings/dialog/views_page.rs:133
+msgid "Newest First"
+msgstr "Más reciente primero"
+
+#: src/settings/dialog/views_page.rs:134
+msgid "Oldest First"
+msgstr "Más antiguo primero"
+
+#: src/settings/dialog/views_page.rs:240
+msgid "Failed to set setting 'show relevant feeds'"
+msgstr "No se pudo establecer \"mostrar canales relevantes\""
+
+#: src/settings/dialog/views_page.rs:261
+msgid "Failed to set setting 'article order'"
+msgstr "No se pudo establecer 'orden de artículos'"
+
+#: src/settings/dialog/views_page.rs:272 src/settings/dialog/views_page.rs:285
+msgid "Failed to set setting 'show thumbnails'"
+msgstr "No se pudo establecer 'mostrar miniaturas'"
+
+#: src/settings/dialog/views_page.rs:318
+msgid "Failed to set article theme"
+msgstr "No se pudo establecer el tema del artículo"
+
+#: src/settings/dialog/views_page.rs:344
+msgid "Failed to set setting 'allow article selection'"
+msgstr "No se pudo establecer 'permitir selección de artículo'"
+
+#: src/settings/dialog/views_page.rs:363
+msgid "Failed to set setting 'content width'"
+msgstr "No se pudo establecer 'ancho del contenido'"
+
+#: src/settings/dialog/views_page.rs:381
+msgid "Failed to set setting 'line height'"
+msgstr "No se pudo establecer 'altura de línea'"
+
+#: src/settings/dialog/views_page.rs:400
+msgid "Failed to set setting 'article font'"
+msgstr "No se pudo establecer 'fuente del artículo'"
+
+#: src/settings/dialog/views_page.rs:427
+msgid "Failed to set setting 'use system font'"
+msgstr "No se pudo establecer 'usar fuente del sistema'"
+
+#: src/settings/feed_list.rs:31
+msgid "Alphabetical"
+msgstr "Alfabético"
+
+#: src/settings/general.rs:46
+msgid "15 Minutes"
+msgstr "15 Minutos"
+
+#: src/settings/general.rs:47
+msgid "30 Minutes"
+msgstr "30 Minutos"
+
+#: src/settings/general.rs:48
+msgid "1 Hour"
+msgstr "1 Hora"
+
+#: src/settings/general.rs:49
+msgid "2 Hours"
+msgstr "2 horas"
+
+#: src/settings/general.rs:102
+msgid "Forever"
+msgstr "Siempre"
+
+#: src/settings/general.rs:103
+msgid "One Year"
+msgstr "Un Año"
+
+#: src/settings/general.rs:104
+msgid "6 Months"
+msgstr "6 Meses"
+
+#: src/settings/general.rs:105
+msgid "One Month"
+msgstr "Un Mes"
+
+#: src/settings/general.rs:106
+msgid "One Week"
+msgstr "Una Semana"
+
+#: src/share/share_popover.rs:137
+msgid "No article selected"
+msgstr "No hay artículos"
+
+#: src/share/share_popover.rs:144
+msgid "Article does not have URL"
+msgstr "El artículo no tiene URL"
+
+#: src/share/share_popover.rs:152
+msgid "Article shared with {}"
+msgstr "No hay artículos que se ajusten a \"{}\""
+
+#: src/sidebar/feed_list/item_row.rs:475 src/sidebar/tag_list/tag_row.rs:233
+msgid "Set Read"
+msgstr "Marcar como leído"
+
+#: src/sidebar/feed_list/item_row.rs:476 src/sidebar/tag_list/tag_row.rs:234
+#: src/sidebar/feed_list/item_row.rs:468 src/sidebar/tag_list/tag_row.rs:230
+msgid "Edit"
+msgstr "Editar"
+
+#: src/sidebar/feed_list/item_row.rs:477 src/sidebar/tag_list/tag_row.rs:235
+#: src/sidebar/feed_list/item_row.rs:469 src/sidebar/tag_list/tag_row.rs:231
+msgid "Delete"
+msgstr "Borrar"
+
+#: src/util/date_util.rs:28 src/util/date_util.rs:25
+msgid "Today"
+msgstr "Hoy"
+
+#: src/util/date_util.rs:30 src/util/date_util.rs:27
+msgid "Yesterday"
+msgstr "Ayer"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:55
+msgid "New look and lots of small refinements for the UI"
+msgstr ""
+"Nueva imagen y montones de pequeños cambios ene la interfaz del usuario"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:56
+msgid "Drag and drop support for feeds and categories"
+msgstr "Arrastra y suelta el soporte para feeds y categorías"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:57
+msgid "New edit dialogs for feeds, categories and tags"
+msgstr ""
+"Nuevos diálogos para la edición de los feeds, las categorías y las etiquetas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:58
+msgid "Allow to move feeds between categories via edit dialog"
+msgstr ""
+"Permitir mover los feeds entre las categorías a través del diálogo de edición"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:59
+msgid "Custom mathjax inline delimiter adjustable per feed"
+msgstr "Delimitador personalizado Mathjax en línea ajustable por canal"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:60
+msgid "Allow sorting feeds and categories alphabetically"
+msgstr "Permitir ordenar canales y categorías alfabéticamente"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:61
+msgid "Fix symbolic icon"
+msgstr "Corregir icono simbólico"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:62
+msgid "Fix sidebar iteration with \"only relevant\" enabled"
+msgstr ""
+"Corregir la iteración de la barra lateral con \"solo relevante\" habilitado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:63
+msgid "Fix switch state in settings dialog"
+msgstr ""
+"Corregir el estado del conmutador en el cuadro de diálogo de configuración"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:64
+msgid "Improve error messages in case of API limit"
+msgstr "Mejorar los mensajes de error en caso de límite de API"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:65
+msgid "Local RSS: improve favicon source selection"
+msgstr "RSS local: mejorar la selección de fuente de favicon"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:66
+msgid "Favicons: avoid unnecessary parallel downloads"
+msgstr "Favicons: evita descargas paralelas innecesarias"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:67
+msgid "Speedup: use tokio runtime instead of threadpool"
+msgstr "Aceleración: use tokio runtime en lugar de threadpool"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:68
+msgid "Speedup: (re)create HTTP client only when the network changed"
+msgstr "Aceleración: (re)crear el cliente HTTP solo cuando la red cambió"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:69
+msgid "Offline Mode: detect automatically when offline or online"
+msgstr ""
+"Modo sin conexión: detecta automáticamente cuando estás en línea o sin "
+"conexión"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:70
+msgid "Offline Mode: allow updating read/starred status of articles"
+msgstr ""
+"Modo sin conexión: permite actualizar el estado de lectura/favoritos de los "
+"artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:71
+msgid "Article View: make title unclickable if article doesn't provide an URL"
+msgstr ""
+"Vista del artículo: haga que no se pueda hacer clic en el título si el "
+"artículo no proporciona una URL"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:72
+msgid "Option to allow NewsFlash to autostart"
+msgstr "Opción para permitir que NewsFlash se inicie automáticamente"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:73
+msgid "Article List: section by day"
+msgstr "Lista de artículos: sección por día"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:74
+msgid "Article List: Update layout"
+msgstr "Lista de artículos: Actualizar diseño"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:75
+msgid "Article List: automatic updates to reflect more tag and feed changes"
+msgstr ""
+"Lista de artículos: actualizaciones automáticas para reflejar más cambios en "
+"etiquetas y canales"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:76
+msgid "Image dialog"
+msgstr "Diálogo de imagen"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:77
+msgid "Video dialog"
+msgstr "Diálogo de vídeo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:78
+msgid "Fix embeded youtube videos"
+msgstr "Corregir videos incrustados de youtube"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:79
+msgid "Use adwaita SplitViews for resizing sidebar and article list"
+msgstr ""
+"Utilice adwaita SplitViews para cambiar el tamaño de la barra lateral y la "
+"lista de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:80
+msgid "Replace Add popover with dialog"
+msgstr "Reemplazar Agregar ventana emergente con diálogo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:81
+msgid "Extract relevant image from HTML as thumbnail"
+msgstr "Extraer la imagen relevante de HTML como miniatura"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:82
+msgid "Save/Restore the most important properties of the UI"
+msgstr "Guardar/Restaurar las propiedades más importantes de la UI"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:88
+msgid "Update the App-Id to be able to verify it on flathub"
+msgstr "Actualizar el App-Id para poder verificarlo en flathub"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:94
+msgid "Massive update to the internal article scraper"
+msgstr "Actualización masiva del raspador de artículos interno"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:95
+msgid "Remove Mercury Parser"
+msgstr "Quitar Mercury Parser"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:96
+msgid "Use Background Apps Portal"
+msgstr "Usar el portal de aplicaciones en segundo plano"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:97
+msgid "Update to stable Gtk 4 WebKit API"
+msgstr "Actualizar a la API estable de Gtk 4 WebKit"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:98
+msgid "Article View: adjust dark background color to match adwaita"
+msgstr ""
+"Vista del artículo: ajuste el color de fondo oscuro para que coincida con "
+"adwaita"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:99
+msgid "Local RSS: remove scripts in content"
+msgstr "RSS local: eliminar scripts en el contenido"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:100
+msgid "Nextcloud News: fix creating API Url"
+msgstr "Nextcloud News: corrige la creación de URL de API"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:107
+msgid "Add up/down arrow shortcuts to article list"
+msgstr "Agregar atajos de flecha arriba/abajo a la lista de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:108
+msgid "Fever: fix sync regression"
+msgstr "Fiebre: arreglar la regresión de sincronización"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:109
+msgid "Fix article list slide transitions"
+msgstr "Corregir transiciones de diapositivas de lista de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:116
+msgid "Fever: fix crash when receiving invalid auth data"
+msgstr ""
+"Fiebre: soluciona el problema al recibir datos de autenticación no válidos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:117
+msgid "Nextcloud News: handle potential negative timestamps"
+msgstr "Nextcloud News: gestionar posibles marcas de tiempo negativas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:118
+msgid "Fix crash when changing article theme"
+msgstr "Soluciona el fallo al cambiar el tema del artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:119
+msgid "Add shortcut to copy article URL to clipboard"
+msgstr "Agregar acceso directo para copiar la URL del artículo al portapapeles"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:120
+msgid "Better loading of articles (fixes potential duplicate articles in list)"
+msgstr ""
+"Mejor carga de artículos (corrige posibles artículos duplicados en la lista)"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:121
+msgid "Updated error handling"
+msgstr "Manejo de errores actualizado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:122
+msgid "Allow uncategorized feeds"
+msgstr "Permitir canales sin categoría"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:129
+msgid "Miniflux: fix handling token and username"
+msgstr "Miniflux: corrige el manejo del token y el nombre de usuario"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:136
+msgid "Fix crash with sync on startup enabled"
+msgstr "Solucionar falla con sincronización al inicio habilitada"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:137
+msgid "Store Webkit ContentFilter in proper directory"
+msgstr "Almacenar Webkit ContentFilter en el directorio adecuado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:138
+msgid "Inoreader: fix updating api secret after login"
+msgstr ""
+"Inoreader: corrige la actualización del secreto de API después de iniciar "
+"sesión"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:145
+msgid "Inoreader: support custom API secrets"
+msgstr "Inoreader: admite secretos de API personalizados"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:146
+msgid "GReader: better error messages"
+msgstr "GReader: mejores mensajes de error"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:147
+msgid "Miniflux: support login via token"
+msgstr "Miniflux: admite inicio de sesión mediante token"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:148
+msgid "Article View: block loading of external style sheets"
+msgstr "Vista del artículo: carga en bloque de hojas de estilo externas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:149
+msgid "Article View: fix stretched images"
+msgstr "Vista del artículo: arreglar imágenes estiradas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:150
+msgid "Add Popover: empty category dropdown after account reset"
+msgstr ""
+"Agregar ventana emergente: menú desplegable de categoría vacío después del "
+"restablecimiento de la cuenta"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:156
+msgid "Hotfix Release to fix crash"
+msgstr "Lanzamiento de revisión para solucionar el problema"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:161
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:195
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:226
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:261
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:355
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:378
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:481
+msgid "Features:"
+msgstr "Características:"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:163
+msgid "GReader: support enclosures"
+msgstr "GReader: recintos de soporte"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:165
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:176
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:184
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:201
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:215
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:250
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:344
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:364
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:383
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:397
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:408
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:420
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:429
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:442
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:452
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:492
+msgid "Bugfixes:"
+msgstr "Corrección de errores:"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:167
+msgid "GReader: mark feeds/categories as read"
+msgstr "GReader: marcar canales/categorías como leídos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:168
+msgid "GReader: fix rename category"
+msgstr "GReader: corregir el cambio de nombre de la categoría"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:169
+msgid "Uncategorized feeds not showing up in exported OPML-files"
+msgstr "Los canales sin categoría no aparecen en los archivos OPML exportados"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:170
+msgid "Only show Discover Dialog after login with Local RSS"
+msgstr ""
+"Mostrar solo el cuadro de diálogo Descubrir después de iniciar sesión con "
+"RSS local"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:178
+msgid "fix commandline parser"
+msgstr "arreglar el analizador de línea de comandos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:186
+msgid "UI: fix scrolling articles on touchscreen"
+msgstr "UI: corrige el desplazamiento de artículos en la pantalla táctil"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:187
+msgid "UI: fix fullscreen video"
+msgstr "UI: arreglar video en pantalla completa"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:188
+msgid "fix crash when scraping article content"
+msgstr "Corregir el fallo al extraer el contenido del artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:189
+msgid "FreshRSS: fix login issue"
+msgstr "FreshRSS: soluciona el problema de inicio de sesión"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:197
+msgid "UI: display tags in article list"
+msgstr "UI: muestra etiquetas en la lista de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:198
+msgid "UI: share articles"
+msgstr "UI: compartir artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:199
+msgid "UI: update responsive layout"
+msgstr "UI: actualizar el diseño responsivo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:203
+msgid "Local RSS: no content showing for certain feeds (e.g. TWIM)"
+msgstr ""
+"RSS local: no se muestra contenido para ciertos canales (por ejemplo, TWIM)"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:204
+msgid "FreshRSS: autocomplete URL to API endpoint"
+msgstr "FreshRSS: URL de autocompletar al punto final de API"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:205
+msgid "FreshRSS: use special characters as part of password"
+msgstr "FreshRSS: use caracteres especiales como parte de la contraseña"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:206
+msgid "FreshRSS: can't rename tag"
+msgstr "FreshRSS: no se puede renombrar la etiqueta"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:207
+msgid "Miniflux &amp; Fever: can't star articles"
+msgstr "Miniflux &amp; Fiebre: no puedo destacar artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:208
+msgid "UI: can't switch between provided and scraped content"
+msgstr "UI: no se puede cambiar entre contenido proporcionado y extraído"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:209
+msgid "UI: clicking enclosure doesn't work"
+msgstr "UI: hacer clic en el recinto no funciona"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:217
+msgid "database: fix a migration issue"
+msgstr "base de datos: solucionar un problema de migración"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:218
+msgid "fix new categories not showing up in the sidebar"
+msgstr "corregir nuevas categorías que no aparecen en la barra lateral"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:224
+msgid "This release marks the biggest update for NewsFlash so far."
+msgstr ""
+"Este lanzamiento marca la mayor actualización de NewsFlash hasta el momento."
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:225
+msgid ""
+"Most importantly the application was ported to Gtk4 &amp; libadwaita. This "
+"came along with lots of internal code improvements."
+msgstr ""
+"Lo más importante es que la aplicación fue trasladada a Gtk4 &amp; "
+"libadwaita. Esto vino junto con muchas mejoras en el código interno."
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:228
+msgid "Refined Interface"
+msgstr "Interfaz refinada"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:229
+msgid "Imporived Phone Layout"
+msgstr "Diseño de teléfono mejorado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:230
+msgid "Fresh RSS Support"
+msgstr "Soporte RSS nuevo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:231
+msgid "Nextcloud News Support"
+msgstr "Soporte de noticias de Nextcloud"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:232
+msgid "Reworked Tagging"
+msgstr "Etiquetado reelaborado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:233
+msgid "Custom Sync Interval"
+msgstr "Intervalo de sincronización personalizado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:234
+msgid "Sync on Startup"
+msgstr "Sincronizar al iniciar"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:236
+msgid "Fullscreen Videos"
+msgstr "Vídeos en pantalla completa"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:237
+msgid "Article View: Custom Content Width"
+msgstr "Vista del artículo: ancho de contenido personalizado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:238
+msgid "Article View: Custom Line Height"
+msgstr "Vista del artículo: Altura de línea personalizada"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:239
+msgid "Article View: Syntax highlighting"
+msgstr "Vista del artículo: resaltado de sintaxis"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:240
+msgid "Better Flatpak support via Portals"
+msgstr "Mejor soporte para Flatpak a través de portales"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:241
+msgid "Translations"
+msgstr "Traducciones"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:242
+msgid "Keep Articles without Feed"
+msgstr "Guardar artículos sin canal"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:243
+msgid "Option to not sync on metered connections"
+msgstr "Opción para no sincronizar en conexiones medidas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:244
+msgid "Advanced option to disable image auto loading"
+msgstr "Opción avanzada para desactivar la carga automática de imágenes"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:252
+msgid "feedbin: fix sync error"
+msgstr "feedbin: corregir error de sincronización"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:253
+msgid "feedbin: fix thumbnails"
+msgstr "feedbin: corregir miniaturas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:254
+msgid "feedbin: fix enclosures"
+msgstr "feedbin: corregir recintos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:255
+msgid "small article visual fix"
+msgstr "corrección visual de artículo pequeño"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:263
+msgid "Support for Inoreader"
+msgstr "Soporte para Inoreader"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:264
+msgid "feedly no longer supported due to expired API key"
+msgstr "Feedly ya no es compatible debido a una clave API caducada"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:266
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:277
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:286
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:297
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:315
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:330
+msgid "Bugfixes/Improvements:"
+msgstr "Correcciones de errores/mejoras:"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:268
+msgid "NewsBlur: access denied on login"
+msgstr "NewsBlur: acceso denegado al iniciar sesión"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:269
+msgid "Mercury Parser: failed due to invalid string format"
+msgstr "Mercury Parser: falló debido a un formato de cadena no válido"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:270
+msgid "Startup parameters being ignored"
+msgstr "Se ignoran los parámetros de inicio"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:271
+msgid "Article View: add inspect menu entry"
+msgstr "Vista del artículo: agregar entrada al menú inspeccionar"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:279
+msgid "Discover: fix crash"
+msgstr "Descubrir: solucionar fallo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:280
+msgid "Sidebar: Improve selection and iteration"
+msgstr "Barra lateral: mejorar la selección y la iteración"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:288
+msgid "Switch out remote Mercury parser for local one"
+msgstr "Cambie el analizador Mercury remoto por uno local"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:289
+msgid "Filter out socks4 proxies not supported by http library"
+msgstr ""
+"Filtre los proxies de Socks4 que no son compatibles con la biblioteca http"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:290
+msgid "Complete URLs in content with xml:base attribute"
+msgstr "URL completas en contenido con atributo xml:base"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:291
+msgid "Local RSS: Use feed URL as ID if the feed doesn't provide one"
+msgstr "RSS local: use la URL del feed como ID si el feed no proporciona uno"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:299
+msgid "Use OPML crate for ex/import"
+msgstr "Utilizar cuadro OPML para exportar/importar"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:300
+msgid "Indent OPML xml on export"
+msgstr "Indentar XML OPML en la exportación"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:301
+msgid "Improve feedly sync behaviour"
+msgstr "Mejorar el comportamiento de sincronización de canales"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:302
+msgid "Local RSS: Handle relative URLs of enclosures"
+msgstr "RSS local: Manejar URL relativas de archivos adjuntos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:303
+msgid "Enclosures now opening from withing flatpak sandbox"
+msgstr "Los adjuntos ahora se abren desde dentro del entorno sandbox Flatpak"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:309
+msgid ""
+"This release brings support for thumbnails in the article list and "
+"enclosures for articles."
+msgstr ""
+"Esta versión brinda soporte para miniaturas en la lista de artículos y "
+"anexos para artículos."
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:314
+msgid ""
+"NewsFlash is now able to download and display thumbnails if the service or "
+"feed provides them."
+msgstr ""
+"NewsFlash ahora puede descargar y mostrar miniaturas si el servicio o la "
+"fuente las proporciona."
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:317
+msgid "Feed-List: Feeds showing even parent category was collapsed"
+msgstr ""
+"Lista de canales: Los canales se muestran incluso cuando la categoría "
+"principal está colapsada"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:318
+msgid "Feed-List: Relevant feed filter not working"
+msgstr "Lista de canales: el filtro de canales relevante no funciona"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:319
+msgid "Feed-List: Drag and Drop not working"
+msgstr "Lista de canales: Arrastrar y soltar no funciona"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:325
+msgid "Hotfix miniflux sync behaviour"
+msgstr "Revisión del comportamiento de sincronización de miniflux"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:332
+msgid "Fix foreign key constraint upgrading database scheme"
+msgstr ""
+"Corregir la restricción de clave externa al actualizar el esquema de la base "
+"de datos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:333
+msgid "Miniflux: better sync"
+msgstr "Miniflux: mejor sincronización"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:334
+msgid "Arrow-key navigation in sidebar"
+msgstr "Navegación con teclas de flecha en la barra lateral"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:335
+msgid "Improve article-list updates"
+msgstr "Mejorar las actualizaciones de la lista de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:336
+msgid "Fix \"keep articles\" 1 week setting"
+msgstr "Corregir la configuración de \"mantener artículos\" durante 1 semana"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:337
+msgid "Clarify the \"keep articles\" setting"
+msgstr "Aclarar la configuración de \"mantener artículos\""
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:343
+msgid "Hotfix for broken Database migration"
+msgstr "Revisión para la migración de base de datos defectuosa"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:346
+msgid "Database migration: copy old article data"
+msgstr "Migración de base de datos: copiar datos antiguos de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:347
+msgid ""
+"local RSS: avoid reassigning current date when no date information is "
+"available"
+msgstr ""
+"RSS local: evitar reasignar la fecha actual cuando no haya información de "
+"fecha disponible"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:348
+msgid "GUI: fix offline/online popover positioning"
+msgstr ""
+"GUI: corregir la posición del popover de estado en línea/fuera de línea"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:349
+msgid "GUI: re-enable arrow navigation in article-list"
+msgstr ""
+"GUI: volver a habilitar la navegación con flechas en la lista de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:357
+msgid "Support for NewsBlur"
+msgstr "Soporte para NewsBlur"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:358
+msgid "feedly: port to new collections API"
+msgstr "Feedly: migrar a la nueva API de colecciones"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:359
+msgid "Option to limit duration articles are kept in the database"
+msgstr ""
+"Opción para limitar la duración de los artículos que se mantienen en la base "
+"de datos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:360
+msgid "Option to hide feeds without unread/starred articles"
+msgstr "Opción para ocultar canales sin elementos no leídos/no destacados"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:361
+msgid "Update article with new content like forum posts"
+msgstr ""
+"Actualizar el artículo con contenido nuevo, como publicaciones en el foro"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:362
+msgid "local RSS: support for MediaRSS"
+msgstr "RSS local: soporte para MediaRSS"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:366
+msgid "Fix regression in database that lead to foreign key constraints failing"
+msgstr ""
+"Se corrigió la regresión en la base de datos que provocaba que fallaran las "
+"restricciones de clave externa"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:367
+msgid "feedly: fix token not refreshing"
+msgstr "feedly: corregir el token que no se actualiza"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:368
+msgid "Remove unnecessary menu entry"
+msgstr "Eliminar entrada de menú innecesaria"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:369
+msgid "Various updated libraries and small code improvements"
+msgstr "Varias bibliotecas actualizadas y pequeñas mejoras de código"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:380
+msgid "migrate to libhandy1"
+msgstr "migrar a libhandy1"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:381
+msgid "GUI can now be squeezed to 360px horizontally to better fit mobile"
+msgstr ""
+"La GUI ahora se puede reducir a 360px horizontalmente para adaptarse mejor a "
+"los dispositivos móviles"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:385
+msgid "local RSS: don't fail on invalid xml attributes"
+msgstr "RSS local: no fallar en atributos xml no válidos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:386
+msgid "local RSS: unique feed ID for feeds without useful data"
+msgstr "RSS local: ID de canal único para canales sin datos útiles"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:387
+msgid "miniflux: parsing article date when timezone is set to UTC"
+msgstr ""
+"miniflux: análisis de la fecha del artículo cuando la zona horaria está "
+"configurada en UTC"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:388
+msgid "fever: sync with articles without feed"
+msgstr "fiebre: sincronizar con artículos sin feed"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:389
+msgid "feedly: sync with missing stream title"
+msgstr "feedly: sincronización con título de transmisión faltante"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:390
+msgid "feedly: sync with duplicate tags field of entry"
+msgstr "Feedly: sincronizar con el campo de etiquetas duplicadas de la entrada"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:391
+msgid "unable to re-add feed after deletion"
+msgstr "No se puede volver a agregar el canal después de eliminarlo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:399
+msgid "local RSS: enconding support"
+msgstr "RSS local: soporte de codificación"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:400
+msgid "local RSS: support content:encoded for RSS 1.0"
+msgstr "RSS local: soporte para content:encoded en RSS 1.0"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:401
+msgid "database: issue when deleting feed-mappings"
+msgstr "base de datos: problema al eliminar asignaciones de canales"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:402
+msgid "feedly: ignore negative published timestamps"
+msgstr "feedly: ignora las marcas de tiempo negativas publicadas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:410
+msgid "feedly: don't require fingerprint"
+msgstr "feedly: no requiere huella digital"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:411
+msgid "feedly: don't require origin title"
+msgstr "feedly: no requiere título de origen"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:412
+msgid "enable gzip feature of reqwest client"
+msgstr "habilitar la función gzip del cliente reqwest"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:413
+msgid "local RSS: smarter selection of article link"
+msgstr "RSS local: selección más inteligente del enlace del artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:414
+msgid "keybinding: fix next-item"
+msgstr "combinación de teclas: arreglar el siguiente elemento"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:422
+msgid "web login page invisible"
+msgstr "página de inicio de sesión invisible"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:423
+msgid "OPML import containing feeds without category"
+msgstr "Importación OPML contiene canales sin categoría"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:431
+msgid "Article List: Load more articles even when scrolling very fast"
+msgstr ""
+"Lista de artículos: cargue más artículos incluso cuando se desplace muy "
+"rápido"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:432
+msgid "feedbin: don't require entries to have a summary"
+msgstr "feedbin: no requiere que las entradas tengan un resumen"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:433
+msgid "feedbin: reset cache after a sync failed"
+msgstr "feedbin: restablecer el caché después de que falló una sincronización"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:434
+msgid "feedbin: ignore articles without feed"
+msgstr "feedbin: ignorar artículos sin feed"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:435
+msgid "fever: fix issue with tt-rss fever plugin"
+msgstr "Fever: corregir problema con el plugin Fever de tt-rss"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:436
+msgid "Import atom feeds from OPML exported with liferea"
+msgstr "Importar canales atom desde OPML exportados con liferea"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:444
+msgid "Close about dialog with no headerbar"
+msgstr "Cerrar el cuadro de diálogo sin barra de encabezado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:445
+msgid "Don't trigger shortcuts twice when article view is in focus"
+msgstr "No active atajos dos veces cuando la vista del artículo esté enfocada"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:446
+msgid "Firefox issues when opening URL with it"
+msgstr "Problemas con Firefox al abrir una URL con él"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:454
+msgid "Updated App Icon"
+msgstr "Icono de aplicación actualizado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:455
+msgid "Set webview background color according to Gtk theme"
+msgstr "Establecer el color de fondo de la vista web según el tema Gtk"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:456
+msgid ""
+"Allow flatpak to access 'Downloads' to save images from the article view"
+msgstr ""
+"Permitir que Flatpak acceda a 'Descargas' para guardar imágenes desde la "
+"vista del artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:457
+msgid "Remove article view content justification"
+msgstr "Eliminar la justificación del contenido de la vista del artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:458
+msgid "React to dark theme preference set from outside"
+msgstr "Reaccionar a la preferencia de tema oscuro establecida desde fuera"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:459
+msgid "Add \"busy timeout\" for database connections"
+msgstr ""
+"Agregue \"tiempo de espera de ocupación\" para las conexiones de bases de "
+"datos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:460
+msgid "Fever: escape HTML entities in title"
+msgstr "Fiebre: escapar de entidades HTML en el título"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:461
+msgid "feedly: ignore articles without existing feed"
+msgstr "feedly: ignorar artículos sin canal existente"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:462
+msgid "feedly: make stream_id optional"
+msgstr "feedly: hacer que stream_id sea opcional"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:463
+msgid "OPML import: use `No Title` if both `title` and `text` are missing"
+msgstr "Importación OPML: use \"Sin título\" si faltan \"título\" y \"texto\""
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:464
+msgid "OPML import: always parse feed if no website is available"
+msgstr ""
+"Importación OPML: siempre analiza el canal si no hay ningún sitio web "
+"disponible"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:465
+msgid "OPML import: Spin the update button to indicate long processing"
+msgstr ""
+"Importación OPML: gire el botón de actualización para indicar un "
+"procesamiento prolongado"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:466
+msgid "Article list: don't insert row when already contained in model"
+msgstr ""
+"Lista de artículos: no insertar fila cuando ya esté contenida en el modelo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:467
+msgid ""
+"Toggle article state based of article list selection instead of article view"
+msgstr ""
+"Alternar el estado del artículo según la selección de la lista de artículos "
+"en lugar de la vista del artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:468
+msgid "Convert timestamp into local timezone for display"
+msgstr "Convierta la marca de tiempo en la zona horaria local para mostrarla"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:469
+msgid "Fix 32 bit build"
+msgstr "Reparar compilación de 32 bits"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:470
+msgid "Fix copying text by not inhibiting all key presses in webview"
+msgstr ""
+"Se corrigió la copia de texto al no inhibir todas las pulsaciones de teclas "
+"en la vista web"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:471
+msgid ""
+"Fix appicon not properly shown: don't call show_all() in application "
+"constructor"
+msgstr ""
+"Arreglar el icono de aplicación que no se muestra correctamente: no llame a "
+"show_all() en el constructor de la aplicación"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:472
+msgid "Update date string in article list if a new day has begun"
+msgstr ""
+"Actualizar la cadena de fecha en la lista de artículos si ha comenzado un "
+"nuevo día"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:473
+msgid "Correctly show initial state of article theme setting"
+msgstr ""
+"Mostrar correctamente el estado inicial de la configuración del tema del "
+"artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:474
+msgid "Crash when opening and using settings a second time"
+msgstr "Fallo al abrir y usar la configuración por segunda vez"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:475
+msgid "Unreadable links in Gruvbox theme"
+msgstr "Enlaces ilegibles en el tema Gruvbox"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:483
+msgid "Feedbin support"
+msgstr "Soporte de feedbin"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:484
+msgid "Mercury Parser hosted by Feedbin as fallback for the internal scraper"
+msgstr ""
+"Mercury Parser alojado en Feedbin como alternativa para el raspador interno"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:485
+msgid "Readability as a fallback for the internal scraper"
+msgstr "Legibilidad como alternativa al raspador interno"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:486
+msgid "Support for uncategorized feeds and \"generated/fake\" categories"
+msgstr "Soporte para canales sin categorizar y categorías \"generadas/falsas\""
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:487
+msgid "Save images to Downloads folder"
+msgstr "Guardar imágenes en la carpeta Descargas"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:488
+msgid "Switch between scraped and original content"
+msgstr "Cambiar entre contenido extraído y original"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:489
+msgid "Search full text of scraped article"
+msgstr "Buscar el texto completo del artículo extraído"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:494
+msgid "Fever: accepting both string and integer for 'last_refreshed_on_time'"
+msgstr ""
+"Fiebre: aceptando tanto cadenas como números enteros para "
+"'last_refreshed_on_time'"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:495
+msgid "Fever: crash when syncing uncategorized feeds"
+msgstr "Fiebre: falla al sincronizar canales sin categoría"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:496
+msgid "Fever: can't login with HTTP basic auth"
+msgstr "Fiebre: no puedo iniciar sesión con autenticación básica HTTP"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:497
+msgid "Fever: slow bulk updating of articles"
+msgstr "Fiebre: lenta actualización masiva de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:498
+msgid "Local: feeds from the same website could overwrite each other"
+msgstr "Local: los canales del mismo sitio web podrían sobrescribirse entre sí"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:499
+msgid "Local: Improve layout when only summary is present"
+msgstr "Local: mejorar el diseño cuando solo hay un resumen"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:500
+msgid "Local: better handle misformed dates in ATOM feeds"
+msgstr "Local: manejar mejor las fechas mal formadas en los canales ATOM"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:501
+msgid "First sync downloads too many articles"
+msgstr "La primera sincronización descarga demasiados artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:502
+msgid "Can't apply tag to article after creating it"
+msgstr "No se puede aplicar la etiqueta al artículo después de crearlo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:503
+msgid "Better error handling for non-web logins"
+msgstr "Mejor manejo de errores para inicios de sesión no web"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:504
+msgid "UI elements visible that shouldn't"
+msgstr "Elementos visibles de la interfaz de usuario que no deberían estarlo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:505
+msgid "Problems opening links from articles"
+msgstr "Problemas al abrir enlaces de artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:506
+msgid "Next article shortcut skipping articles"
+msgstr "Siguiente Artículo atajo para saltar artículos"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:507
+msgid "Debug files written to disk"
+msgstr "Depurar archivos escritos en el disco"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:508
+msgid "Improved right-to-left language support"
+msgstr "Soporte de idioma mejorado de derecha a izquierda"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:509
+msgid "Prefer scraped content when exporting an article"
+msgstr "Preferir contenido extraído al exportar un artículo"
+
+#: data/io.gitlab.news_flash.NewsFlash.appdata.xml.in.in:514
+msgid "First public release"
+msgstr "Primer lanzamiento público"
+
+#~ msgid "Follow your favorite blogs and news sites."
+#~ msgstr "Siga sus blogs y sitios de noticias favoritos."
+
+#~ msgid "Next"
+#~ msgstr "Siguiente"
+
+#~ msgid "text"
+#~ msgstr "texto"
+
+#~ msgid "spinner"
+#~ msgstr "girador"
+
+#~ msgid ""
+#~ "Enter the Title of the new Tag\n"
+#~ "and choose its color"
+#~ msgstr ""
+#~ "Introduzca el título de la etiqueta nueva\n"
+#~ "y elija su color"
+
+#~ msgid "button"
+#~ msgstr "botón"
+
+#~ msgid "Go back to online mode"
+#~ msgstr "Volver al modo en línea"
+
+#~ msgid "Enclosures"
+#~ msgstr "Recintos"
+
+#~ msgid "English"
+#~ msgstr "Inglés"
+
+#~ msgid "German"
+#~ msgstr "Alemán"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorar"
+
+#~ msgid "Url:"
+#~ msgstr "URL:"
+
+#~ msgid "Rename"
+#~ msgstr "Renombrar"
+
+#~ msgid "Resetting Account failed"
+#~ msgstr "Fallo en el restablecimiento de la cuenta"
+
+#~ msgid "Price:"
+#~ msgstr "Precio:"
+
+#~ msgid "License:"
+#~ msgstr "Licencia:"
+
+#~ msgid "Service Type:"
+#~ msgstr "Tipo de servicio:"
+
+#~ msgid "Website:"
+#~ msgstr "Sitio web:"
+
+#~ msgid "http://example.com"
+#~ msgstr "http://ejemplo.es"
+
+#~ msgid "self hosted"
+#~ msgstr "autoalojado"
+
+#~ msgid "GPLv3"
+#~ msgstr "GPLv3"
+
+#~ msgid "free"
+#~ msgstr "libre"
+
+#~ msgid "Categories"
+#~ msgstr "Categorías"
+
+#~ msgid "Please select the RSS service you are using and log in to get going."
+#~ msgstr ""
+#~ "Por favor, seleccione el servicio RSS que está usando e inicie sesión "
+#~ "para empezar."
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancelar"
+
+#~ msgid "Empty name not allowed"
+#~ msgstr "No se permite un nombre vacío"
+
+#~ msgid "About"
+#~ msgstr "Acerca de"
+
+#~ msgid "Please log into {} and enjoy using NewsFlash"
+#~ msgstr "Por favor, inicie sesión en {} y disfrute usando NewsFlash"
+
+#~ msgid "HTTP authentication required."
+#~ msgstr "Se requiere autenticación HTTP."
+
+#~ msgid "No Website"
+#~ msgstr "Sin sitio web"
+
+#~ msgid "Unknown Free License"
+#~ msgstr "Licencia libre desconocida"
+
+#~ msgid "Proprietary Software"
+#~ msgstr "Software propietario"
+
+#~ msgid "Local data only"
+#~ msgstr "Sólo datos locales"
+
+#~ msgid "Synced and self-hosted"
+#~ msgstr "Sincronizado y autoalojado"
+
+#~ msgid "Synced"
+#~ msgstr "Sincronizado"
+
+#~ msgid "Free"
+#~ msgstr "Gratis"
+
+#~ msgid "Paid"
+#~ msgstr "De pago"
+
+#~ msgid "Free / Paid Premium"
+#~ msgstr "Gratis / Premium de pago"

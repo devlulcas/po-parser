@@ -7,7 +7,7 @@
 		"dev": "node --watch --experimental-strip-types src/playground.ts",
 		"build": "tsc",
 		"preview": "node build/playground.js",
-		"test": "node --experimental-strip-types --test --watch src/playground.ts",
+		"test": "tsc && node --test ./dist/*.test.js",
 		"lint": "eslint . && prettier --check .",
 		"format": "prettier --write ."
 	},
